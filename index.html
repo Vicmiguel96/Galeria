@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="dropdown">
+        <button class="dropbtn">Filtro</button>
+        <button onclick="restablecer()" class="home">Restablecer</button>
+        <div class="dropdown-content">
+            <a href="#" onclick="mostrarImagenes('natural')">Paisajes Naturales</a>
+            <a href="#" onclick="mostrarImagenes('urbano')">Paisajes Urbanos</a>
+            <a href="#" onclick="mostrarImagenes('thumbnail')">Mostrar todo</a>
+        </div>
+    </header>
+    <div class="galeria">
+        <img src="https://images.pexels.com/photos/7555440/pexels-photo-7555440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Imagen1" class="thumbnail urbano">
+        <img src="https://images.pexels.com/photos/1576667/pexels-photo-1576667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Imagen2" class="thumbnail natural">
+        <img src="https://images.pexels.com/photos/5804086/pexels-photo-5804086.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Imagen3" class="thumbnail urbano">
+        <img src="https://images.pexels.com/photos/169647/pexels-photo-169647.jpeg" alt="Imagen4" class="thumbnail urbano">
+        <img src="https://images.pexels.com/photos/220769/pexels-photo-220769.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Imagen5" class="thumbnail urbano">
+        <img src="https://images.pexels.com/photos/1168940/pexels-photo-1168940.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Imagen6" class="thumbnail urbano">
+        <img src="https://images.pexels.com/photos/1587947/pexels-photo-1587947.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Imagen7" class="thumbnail urbano">
+        <img src="https://images.pexels.com/photos/1327354/pexels-photo-1327354.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Imagen8" class="thumbnail natural">
+        <img src="https://images.pexels.com/photos/1703021/pexels-photo-1703021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Imagen9" class="thumbnail natural">
+        <img src="https://images.pexels.com/photos/1766838/pexels-photo-1766838.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Imagen10" class="thumbnail natural">
+        <img src="https://images.pexels.com/photos/552785/pexels-photo-552785.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Imagen11" class="thumbnail natural">
+        <img src="https://images.pexels.com/photos/1366957/pexels-photo-1366957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Imagen12" class="thumbnail urbano">
+        <img src="https://images.pexels.com/photos/802024/pexels-photo-802024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Imagen13" class="thumbnail urbano">
+        <img src="https://images.pexels.com/photos/18391614/pexels-photo-18391614/free-photo-of-ciudad-edificios-urbano-paisaje-urbano.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Imagen14" class="thumbnail urbano">
+        <img src="https://images.pexels.com/photos/18411385/pexels-photo-18411385/free-photo-of-ciudad-torre-eiffel-francia-punto-de-referencia.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Imagen15" class="thumbnail urbano">
+        <img src="https://images.pexels.com/photos/18395023/pexels-photo-18395023/free-photo-of-ciudad-panorama-urbano-rascacielos-moderno.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Imagen16" class="thumbnail urbano">
+        <img src="https://images.pexels.com/photos/18413827/pexels-photo-18413827/free-photo-of-cruce-de-shibuya.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Imagen17" class="thumbnail urbano">
+        <img src="https://images.pexels.com/photos/18421742/pexels-photo-18421742/free-photo-of-paisaje-naturaleza-rocas-musgo.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Imagen18" class="thumbnail natural">
+        <img src="https://images.pexels.com/photos/1486974/pexels-photo-1486974.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Imagen19" class="thumbnail natural">
+        <img src="https://images.pexels.com/photos/1542495/pexels-photo-1542495.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Imagen20" class="thumbnail natural">
+    </div>
+    <div class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-image" src="" alt="Imagen ampliada">
+    </div>    
+</body>
+<script src="/app.js"></script>
+</html>
